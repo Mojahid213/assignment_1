@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+body{
+    font-family: 'Varela Round', sans-serif;
+    margin:0;
+}
+/*-- Global --*/
+h1{
+    font-size: 40px;
+    font-weight: bolder;
+}
+h2{
+    font-size: 30px;
+}
+.highlight{
+    color:tomato;
+}
+
+.common_div{
+    width: 40%;
+}
+/*-- Global --*/
+
+/*--- Heading starts ---*/
+.header{
+    height:70px;
+    margin-top: 20px;
+}
+.header nav ul{
+    float:right;
+    list-style:none;
+    display: inline-flex;
+    margin:0 10%;
+}
+.header nav ul li{
+    padding:10px 30px;
+}
+.header nav ul li a{
+    text-decoration: none;
+    color:black;
+}
+/*---! Heading ends !---*/
+
+/* First section */
+.sec_1_div{
+    margin:0 2%;
+    padding:3%;
+    float:left;
+    height: 500px;
+}
+.sec_1_div img{
+    width:100%;
+}
+.sec_1_div button{
+    margin-top:40px;
+    margin-left: 30px;
+    padding:7px 20px;
+    border:3px solid white;
+    border-radius: 5px;
+    background:linear-gradient(45deg, salmon, tomato)
+}
+.sec_1_div button a{
+    text-decoration: none;
+    color:snow;
+    font-size:20px;
+    font-family: 'Varela Round', sans-serif;
+}
+.sec_1_div button:hover{
+    border:3px solid black;
+    border-radius: 5px;
+    background:none;
+}
+.sec_1_div button:hover a{
+    color:black;
+}
+/*----! First section !----*/
+
+/* About section */
+.sec_2_div{
+    margin: 0 2%;
+    padding:5% 3%;
+    float:right;
+    height:500px;
+}
+.sec_2_div img{
+    width:100%;
+}
+
+.sec_2_div button{
+    margin-top:40px;
+    margin-left: 10px;
+    padding:7px 20px;
+    border:3px solid white;
+    border-radius: 5px;
+    background:linear-gradient(45deg, salmon, tomato)
+}
+.sec_2_div button a{
+    text-decoration: none;
+    color:snow;
+    font-size:20px;
+    font-family: 'Varela Round', sans-serif;
+}
+.sec_2_div button:hover{
+    border:3px solid black;
+    border-radius: 5px;
+    background:none;
+}
+.sec_2_div button:hover a{
+    color:black;
+}
+/*--! About section !--*/
+
+/* Work Section*/
+#latest_work{
+    height:350px;
+    margin-bottom: 100px;
+}
+#latest_work h2{
+    text-align: center;
+}
+.lat_div{
+    width:25%;
+    float:left;
+    margin:10px 3%;
+    padding:1%;
+    box-shadow: 0px 2px 5px;
+    border-radius: 5px;
+}
+
+.lat_div img{
+    width:100%;
+}
+/* --! Work Section !--*/
+
+
+/* Skills section*/
+#skills{
+    height:300px;
+    margin:120px 0;
+    float:left;
+    width:100%;
+}
+#skills h2{
+    text-align: center;
+}
+.com_skills{
+    margin-left: 45px;
+}
+.com_skills div{
+    height: 40px;
+    text-align: center;
+}
+.com_skills div p{
+    padding-top:1%;
+}
+#html_{
+    width:80%;
+    background-color:teal;
+}
+#css_{
+    width:60%;
+    background-color:rgb(67, 167, 0);
+}
+#javascript_{
+    width:55%;
+    background-color:rgb(131, 8, 212);
+}
+#react_{
+    width:75%;
+    background-color:rgb(212, 130, 6);
+}
+/*--! Skills section !--*/
+
+
+/* Inquiry section */
+#inquiry{
+   background-image: url(./img/last.png);
+   background-position: left;
+   height: 200px;
+   width:70%;
+   margin:0 15%;
+   margin-top:200px;
+   background-color: thistle;
+   float:left;
+   margin-bottom: 200px;
+   border-radius:10px;
+}
+.las_div{
+    text-align: center;
+    padding-top:8%;
+}
+.las_div span{
+    font-size: 35px;
+    margin-right: 25%;
+    color:snow;
+    font-weight: 800;
+}
+.las_div button{
+    margin:0px 20px;
+    padding:10px 20px;
+    border:none;
+    border-radius: 5px;
+    background:linear-gradient(45deg, salmon, tomato);
+}
+.las_div button a{
+    text-decoration: none;
+    color:snow;
+    font-size: 15px;
+    font-weight: 700;
+}
+/*--! Inquiry section !--*/
+
+/* Footer*/
+.footer{
+    margin-top:100px;
+    float:left;
+    margin-left: 40%;
+
+}
+.copy{
+    font-size: 15px;
+    font-weight: 700;
+}
+/*--! Footer !--*/
